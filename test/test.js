@@ -10,10 +10,10 @@ describe('Tax Calculator', function(){
     expect(code.calcTax(10)).to.equal(0.3);
     expect(code.calcTax(30)).to.equal(0.9);
   });
-  //
-  // it('should tax 7% on the second $10', function(){
-  //   expect(code.calcTax(15)).to.equal(1.35);
-  // });
+  
+  it('should tax 7% on the second $10', function(){
+    expect(code.calcTax(15)).to.equal(1.35);
+  });
 
 });
 
